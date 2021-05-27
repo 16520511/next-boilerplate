@@ -1,0 +1,37 @@
+{
+  "name": "huylhd",
+  "author": "huylhd",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server/server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server/server.js"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.11.1",
+    "lodash": "^4.17.21",
+    "material-table": "^1.69.1",
+    "next": "^10.0.0",
+    "next-redux-wrapper": "^6.0.2",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.6.0",
+    "react-dom": "17.0.1",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "sweetalert2": "^11.0.7"
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.9",
+    "remote-redux-devtools": "^0.5.16"
+  }
+}
